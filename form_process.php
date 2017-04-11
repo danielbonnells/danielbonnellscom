@@ -62,7 +62,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $to = 'daniel@danielbonnells.com';
       $subject = 'Contact Form Submit';
       if (mail($to, $subject, $message_body)){
-          $success = "Message sent, thank you for contacting us!";
+          $success = "Message sent, thank you for reaching out!";
           $name = $email = $phone = $message = $url = '';
       }
   }
