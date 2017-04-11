@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<?php include('form_process.php');
+?><!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Daniel Bonnells</title>
@@ -204,8 +205,45 @@ My experience with design has afforded me the ability to lead brand identity pro
         </div>
     </div>
     <footer>
+      <div class="row">
+<div class="col-xs-12">
+  <h1 id="contact">contact me</h1>
+</div>
+        <div class="col-xs-12 col-md-6">
 
-        <h1 id="contact">contact me</h1>
+<!-- the form starts here -->
+<form id="contactform" action="<?= htmlspecialchars($_SERVER["PHP_SELF"]) ?>" method="post">
+
+    <h4>Send me a message. I'll reply within 24 hours!</h4>
+    <fieldset>
+      <input placeholder="your name" type="text" name="name" value="<?= $name ?>" tabindex="1" autofocus>
+      <span class="error"><?= $name_error ?></span>
+    </fieldset>
+    <fieldset>
+      <input placeholder="your email address" type="text" name="email" value="<?= $email ?>" tabindex="2">
+      <span class="error"><?= $email_error ?></span>
+    </fieldset>
+    <fieldset>
+      <input placeholder="your phone number" type="text" name="phone" value="<?= $phone ?>" tabindex="3">
+      <span class="error"><?= $phone_error ?></span>
+    </fieldset>
+    <fieldset>
+      <input placeholder="your web site starting with http://" type="text" name="url" value="<?= $url ?>" tabindex="4" >
+      <span class="error"><?= $url_error ?></span>
+    </fieldset>
+    <fieldset>
+      <textarea value="<?= $message ?>" name="message" tabindex="5">
+      </textarea>
+    </fieldset>
+    <fieldset>
+      <button id="submitbutton" name="submit" type="submit" id="contact-submit" data-submit="...Sending">submit</button>
+    </fieldset>
+    <div class="success"><?= $success ?></div>
+  </form>
+
+<!-- the form ends here -->
+      </div>
+      <div id="contactlinks" class="col-xs-12 col-md-6">
         <div><a href="mailto:daniel@danielbonnells.com">send me an email</a></div>
         <div><a href="http://danielbonnells.com/resources/Daniel%20Bonnells%20-%20Resume%20.pdf">download my resume</a></div>
         <div id="fdiv">
@@ -214,7 +252,9 @@ My experience with design has afforded me the ability to lead brand identity pro
         <div><a href="https://danielbonnells.carbonmade.com/">CarbonMade</a></div>
         <div><a href="https://github.com/danielbonnells">GitHub</a></div>
         </div>
-        <div style="color: gray; font-size: .7em; margin-top: 50px;"><p>© Daniel Bonnells 2017.</p></div>
+      </div>
+      </div>
+      <div style="color: gray; font-size: .7em; margin-top: 50px;"><p>© Daniel Bonnells 2017.</p></div>
     </footer>
 </body>
 
