@@ -345,6 +345,7 @@ input{
   height: 40px;
 }
 textarea {
+
   border-radius: 5px;
   width: 90%;
   max-width: 450px;

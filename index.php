@@ -216,7 +216,7 @@ My experience with design has afforded me the ability to lead brand identity pro
 
     <h4>Send me a message. I'll reply within 24 hours!</h4>
     <fieldset>
-      <input placeholder="your name" type="text" name="name" value="<?= $name ?>" tabindex="1" autofocus>
+      <input placeholder="your name" type="text" name="name" value="<?= $name ?>" tabindex="1">
       <span class="error"><?= $name_error ?></span>
     </fieldset>
     <fieldset>
