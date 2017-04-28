@@ -3,6 +3,9 @@
 <html lang="en">
 <head>
     <title>Daniel Bonnells</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Orlando web developer, content writer, and graphic designer.">
+    <meta name="author" content="Daniel Bonnells">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" type="text/css" >
@@ -59,7 +62,7 @@
                 <div class="col-sm-6">
                     <h2>about me</h2>
                     <hr>
-                    <p class="textsections">I've always been passionate about the web. Since I was a little kid, most of my free time was in front of a computer, learning the ins and outs. Many days were spent learning Photoshop and similar programs, which led to design becoming a fun hobby of mine. After college, I began to work as a content writer and that’s what I primarily do today. Because of my work, I've come to appreciate web development, both front-end and back-end. I am on a journey to expand my skillset and am seeking employment as a web developer. Take a look at my work below, check out <a href="http://danielbonnells.com/resources/Daniel%20Bonnells%20-%20Resume%20.pdf">my resume</a>, and <a id="reachout" href="#contact"><strong>reach out to me</strong></a> if you think I would be a good fit for your organization. </p>
+                    <p class="textsections">I've always been passionate about the web. Since I was a little kid, most of my free time was in front of a computer, learning the ins and outs. Many days were spent learning Photoshop and similar programs, which led to design becoming a fun hobby of mine. After college, I began to work as a content writer and that’s what I primarily do today. Because of my work, I've come to appreciate web development, both front-end and back-end. I am on a journey to expand my skillset and am seeking employment as a web developer. Take a look at my work below, check out <a href="http://danielbonnells.com/resources/Daniel_Bonnells_Resume.pdf">my resume</a>, and <a id="reachout" href="#contact"><strong>reach out to me</strong></a> if you think I would be a good fit for your organization. </p>
                 </div>
                </div>
             </div>
@@ -75,7 +78,7 @@
                         <h2>web development</h2>
                         <hr>
                         <p class="textsections">I've been working hard for the past couple of years to reach a point where I feel comfortable calling myself a web developer. In fact, in March of 2017 I accomplished a huge goal of mine to complete my <a href="https://www.freecodecamp.com/danielbonnells/front-end-certification" ><strong>Front End Developer Certificate</strong></a> from <a href="https://www.freecodecamp.com/danielbonnells">FreeCodeCamp.</a> I've worked on several projects that gave me experience with: APIs, functional JavaScript, listener events, audio playback, and timing events. I wrote up this site myself, and have done a bit of freelancing along the way.
-                            <br><br>I am comfortable utilizing HTML5, CSS3, and JavaScript to create and manipulate the DOM. With CSS, I have experience styling with the use of variables, creating animations, and taking advantage of media queries to display sites differently depending on screen size breakpoints. The future is in responsive websites that put mobile first, which is what I prioritize when creating. Using vanilla JavaScript, as well as other js libraries, I’m able to easily modify the styling and HTML to fit the needs at hand.
+                            <br><br>I am comfortable utilizing HTML5, CSS3, and JavaScript to create and manipulate the DOM. With CSS, I have experience styling with the use of variables, creating animations, and taking advantage of media queries to display sites differently depending on screen size breakpoints. The future is in responsive websites that put mobile first, which is what I prioritize when creating. Using vanilla JavaScript, as well as other js libraries, I’m able to easily modify the styling and HTML to fit the needs at hand. I also have PHP experience creating and editing WordPress themes.
                             <br><br>Click below to see some of my projects.
  </p>
                         <div id="projectsstart" style="height: 75px;"></div>
@@ -245,7 +248,7 @@ My experience with design has afforded me the ability to lead brand identity pro
       </div>
       <div id="contactlinks" class="col-xs-12 col-md-6">
         <div><a href="mailto:daniel@danielbonnells.com">send me an email</a></div>
-        <div><a href="http://danielbonnells.com/resources/Daniel%20Bonnells%20-%20Resume%20.pdf">download my resume</a></div>
+        <div><a href="http://danielbonnells.com/resources/Daniel_Bonnells_Resume.pdf">download my resume</a></div>
         <div id="fdiv">
         <div><a href="https://www.linkedin.com/in/danielbonnells/">LinkedIn</a></div>
         <div><a href="https://twitter.com/danielbt">Twitter</a></div>
