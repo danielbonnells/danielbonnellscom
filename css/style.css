@@ -276,8 +276,10 @@ header div {
 }
 
 .projects {
-	max-width: 370px;
+	max-width: 100px;
     margin: 0 auto;
+    .margin-left: 25px;
+    .margin-right: 25px;
 
 
 }
@@ -285,7 +287,7 @@ header div {
 
 
 #projectsection > div img {
-    border: solid 5px #eee;
+    .border: solid 5px #eee;
      border-radius: 30px;
 }
 
@@ -295,13 +297,162 @@ header div {
 }
 
 .projectinfo {
-    display: inline-block;
+  display: none;
+    .display: inline-block;
     height: 100px;
     font-size: 1.3em;
     font-family: 'Libre Baskerville' , serif;
 
 }
 
+#websitesection {
+  .display: flex;
+  .align-items: center;
+  .align-content: center;
+  .margin-bottom: 270px;
+}
+
+#webinfo-col {
+  display: block;
+  .align-items: center;
+  .justify-content:space-around;
+  margin-bottom: 270px;
+}
+
+#website-photo{
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: url('/resources/hhi-images/hhi-1.png');
+  background-size: cover !important;
+  background-position: top center  !important;
+  .box-shadow: 0px 0px 20px #ccc;
+  box-shadow: 0px 0px 30px #cecece;
+  margin-right: 20px;
+}
+
+#website-description  {
+
+min-width: 200px;
+max-width: 500px;
+.display: inline-block;
+display: block;
+margin-top: 50px;
+margin-right: 20px;
+
+}
+#website-description p {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.2em;
+}
+#website-description h3 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+#vertical-line {
+  display: none;
+  background-color: #ccc;
+  width: 1px;
+  height: 300px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+#screenshot-col {
+  display: block;
+}
+#screenshot-container {
+  display: flex;
+  align-content: space-between;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.screenshot {
+  display: inline-block;
+  .box-shadow: 0px 0px 20px #ccc;
+  box-shadow: 0px 0px 30px #cecece;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-size: cover !important;
+  background-position: center !important;
+  margin: 20px;
+}
+
+#left-btn {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  cursor: pointer;
+
+}
+#right-btn {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  cursor: pointer;
+}
+
+#sh-1{
+    background: url('/resources/hhi-images/hhi-2.png');
+
+
+}
+#sh-2{
+  background: url('/resources/hhi-images/hhi-3.png');
+
+}
+#sh-3{
+  background: url('/resources/hhi-images/hhi-4.png');
+
+}
+#sh-4{
+  background: url('/resources/hhi-images/hhi-5.png');
+
+}
+
+@media (min-width: 480px){
+
+
+
+
+  #webinfo-col {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+      margin-bottom: 0px;
+  }
+
+  #screenshot-col {
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+  }
+
+
+}
+
+@media (min-width: 768px){
+
+
+  #website-photo{
+    display: inline-block;
+    width: 300px;
+    min-width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    margin-right: 20px;
+      background-size: cover;
+  }
+
+}
 /*div {
     border: dashed red 1px;
 }

@@ -88,8 +88,9 @@
                 </div>
             </div>
 
-            <div id="webdevelopmenttext" class="col-xs-12 ">
-                <div id="projectsection">
+            <div id="webdevelopmenttext" class="col-xs-12">
+              <div><h2>web apps</h2></div>
+                <div id="projectsection" class="col-lg-12">
 
                     <div class="projects"id="project1">
                         <a href="http://codepen.io/danielbonnells/pen/QpGrGr">
@@ -141,9 +142,37 @@
 
 
                 </div>
+                <hr style="width:100%;">
+
+                <div style="height:90px;"><h2>websites</h2></div>
+                <div id="websitesection" class="row">
+                  <div id="webinfo-col" class="col-xs-12 col-lg-6 col-lg-offset-1">
+                    <div id="left-btn"></div>
+                  <div id="website-photo"></div>
+
+                  <div id="website-description">
+                    <h3>health & hope institute</h3>
+                    <p>Website received complete development overhaul into a responsive, mobile-first design. New feature implementations such as Wordpress Blogging and e-commerce integration. Theme was customized to match the html styling.</p>
+                  </div>
+                  <div id="vertical-line"></div>
+                  <div id="right-btn"></div>
+                </div>
+
+                <div class="col-xs-12 col-lg-5" id="screenshot-col">
+                  <div style="width: 100%;text-align: center;"><h3 style="display:block;">screenshots</h3></div>
+
+                  <div id="screenshot-container">
+                      <div id="sh-1" class="screenshot"></div>
+                      <div id="sh-2" class="screenshot"></div>
+                      <div id="sh-3" class="screenshot"></div>
+                      <div id="sh-4" class="screenshot"></div>
+                  </div>
+                </div>
+                </div>
+
                 <div id="hideprojects" class="seeprojects"><a href="#projectsstart"><i class="material-icons expanddown1">&#xE5CE;</i>Hide Projects<i class="material-icons expanddown1">&#xE5CE;</i></a></div>
             </div>
-         <!-- web development section is below graphics section for formatting reasons -->
+
 
             <div id="contentwriter" class="col-xs-12 col-lg-12">
                 <div id="rowwriting" class="row">
