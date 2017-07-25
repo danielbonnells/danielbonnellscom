@@ -201,6 +201,29 @@ function setWebsiteData(){
 
 }
 
+// ----- // Toggle Screenshots
+
+
+
+
+
+var windowWidth = window.matchMedia( "(min-width: 505px)" );
+
+if (windowWidth.matches) {
+
+
+
+} else {
+  $('#screenshot-container').css("display", "none");
+
+  $('#screenshots-title').on('click', function(){
+
+    $('#screenshot-container').slideToggle();
+
+  });
+}
+
+
 
 // ----------- Graphic Design Section Show Work Samples
 

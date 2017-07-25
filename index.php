@@ -13,8 +13,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
-    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" >
-    <meta charset="utf-8">
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="resources/favicon.png" />
 
@@ -78,7 +77,7 @@
                         <h2>web development</h2>
                         <hr>
                         <p class="textsections">I've been working hard for the past couple of years to reach a point where I feel comfortable calling myself a web developer. In fact, in March of 2017 I accomplished a huge goal of mine to complete my <a href="https://www.freecodecamp.com/danielbonnells/front-end-certification" ><strong>Front End Developer Certificate</strong></a> from <a href="https://www.freecodecamp.com/danielbonnells">FreeCodeCamp.</a> I've worked on several projects that gave me experience with: APIs, functional JavaScript, listener events, audio playback, and timing events. I wrote up this site myself, and have done a bit of freelancing along the way.
-                            <br><br>I am comfortable utilizing HTML5, CSS3, and JavaScript to create and manipulate the DOM. With CSS, I have experience styling with the use of variables, creating animations, and taking advantage of media queries to display sites differently depending on screen size breakpoints. The future is in responsive websites that put mobile first, which is what I prioritize when creating. Using vanilla JavaScript, as well as other js libraries, I’m able to easily modify the styling and HTML to fit the needs at hand. I also have PHP experience creating and editing WordPress themes.
+                            <br><br>I am comfortable utilizing HTML5, CSS3, and JavaScript to create and manipulate the DOM. With CSS, I have experience styling with the use of variables, creating animations, and taking advantage of media queries to display sites differently depending on screen size breakpoints. The future is in responsive websites that put mobile first, which is what I prioritize when creating. Using vanilla JavaScript, as well as other js libraries, I’m able to easily modify the styling and HTML to fit the needs at hand. I also have PHP experience creating and editing WordPress themes and can manipulate MySQL databases.
                             <br><br>Click below to see some of my projects.
  </p>
                         <div id="projectsstart" style="height: 75px;"></div>
@@ -144,10 +143,10 @@
                 </div>
                 <hr style="width:100%;">
 
-                <div style="height:90px;"><h2>websites</h2></div>
+                <div style="height:90px;margin-top: 50px;"><h2>websites</h2></div>
                 <div id="websitesection" class="row">
                   <div id="webinfo-col" class="col-xs-12 col-lg-6 col-lg-offset-1">
-                    <div id="left-btn"></div>
+                    <!--<div id="left-btn"><i class="material-icons icons-switch-screenshot-lg">keyboard_arrow_left</i></div>-->
                   <div id="website-photo"></div>
 
                   <div id="website-description">
@@ -155,11 +154,12 @@
                     <p>Website received complete development overhaul into a responsive, mobile-first design. New feature implementations such as Wordpress Blogging and e-commerce integration. Theme was customized to match the html styling.</p>
                   </div>
                   <div id="vertical-line"></div>
-                  <div id="right-btn"></div>
+                  <!--<div id="right-btn"></div>-->
                 </div>
 
                 <div class="col-xs-12 col-lg-5" id="screenshot-col">
-                  <div style="width: 100%;text-align: center;"><h3 style="display:block;">screenshots</h3></div>
+                  <div style="width: 100%;text-align: center; margin-top:30px;"><i id="left-btn" class="material-icons icons-switch-screenshot">navigate_before</i><i id="right-btn" class="material-icons icons-switch-screenshot">navigate_next</i>
+                  <h3 id="screenshots-title" style="display:block;">screenshots</h3></div>
 
                   <div id="screenshot-container">
                       <div id="sh-1" class="screenshot"></div>
@@ -167,6 +167,7 @@
                       <div id="sh-3" class="screenshot"></div>
                       <div id="sh-4" class="screenshot"></div>
                   </div>
+
                 </div>
                 </div>
 
