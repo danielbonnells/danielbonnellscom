@@ -31,6 +31,16 @@
         </script>
 </head>
 <body>
+
+
+  <!-- MODAL BACKGROUND OVERLAY -->
+
+    <div id="overlay" class="animated fadeIn"></div>
+
+    <div id="modal-image" class="animated fadeIn"></div>
+
+  <!-- MODAL BRACKGROUND OVERLAY END -->
+
     <header>
 
     <div id="nav">
@@ -143,6 +153,7 @@
                 </div>
                 <hr style="width:100%;">
 
+
                 <div style="height:90px;margin-top: 50px;"><h2>websites</h2></div>
                 <div id="websitesection" class="row">
                   <div id="webinfo-col" class="col-xs-12 col-lg-6 col-lg-offset-1">
@@ -186,7 +197,7 @@
                         <hr>
                         <p class="textsections">I write content for niche websites and clients. The majority of my work makes part of a content-driven marketing approach for local and international companies. My job is to deliver consistent, evergreen articles and blogs rich in information relevant to consumers. All of my work keeps readability, shareability, and SEO in mind in order to best propel the client’s website to the top of search engine results.
 
-<br><br>I also run two blogs of my own, one is a travel blog for budget adventure travelers, <a href="http://journeytotravel.com/">journeytotravel.com</a>, while the other is a website geared towards product reviewers, <a href="http://reviewerguide.com/">reviewerguide.com</a>.
+<br><br>I run a travel blog of my own for budget adventure travelers, <a href="http://journeytotravel.com/">journeytotravel.com</a>, which has, admitedly, not been updated recently.
 
 <br><br>For the most part, my content is not credited, as is customary for most writers in my field. For samples of my work, check out <a href="https://www.skyscanner.com/tips-and-inspiration/visiting-new-orleans-a-readers-persepective">this blog for SkyScanner.com</a>, or <a href="http://danielbonnells.com/files/Daniel%20Bonnells%20-%20Writing%20Sample.pdf"><strong>download this writing sample</strong></a>.
 </p>

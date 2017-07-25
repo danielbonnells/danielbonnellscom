@@ -204,9 +204,6 @@ function setWebsiteData(){
 // ----- // Toggle Screenshots
 
 
-
-
-
 var windowWidth = window.matchMedia( "(min-width: 505px)" );
 
 if (windowWidth.matches) {
@@ -223,7 +220,33 @@ if (windowWidth.matches) {
   });
 }
 
+// ----------- Screenshots Modal
 
+/*
+TO ADD:
+    - arrow functions or click on modal to switch to next image
+
+*/
+
+//brings up the overlay when screenshot is clicked, brings up large image
+$(".screenshot").on('click', function(){
+  $("#overlay").css("display", "block");
+  $("#modal-image").css("display", "block");
+  var bckImg = $(this).css("background-image");
+  $("#modal-image").css("background-image", bckImg);
+})
+// same as above, except with main website photo
+$("#website-photo").on('click', function(){
+  $("#overlay").css("display", "block");
+  $("#modal-image").css("display", "block");
+  var bckImg = $(this).css("background-image");
+  $("#modal-image").css("background-image", bckImg);
+})
+//changes display to none when overlay is clicked on
+$("#overlay").on('click', function(){
+  $("#overlay").css("display", "none");
+  $("#modal-image").css("display", "none");
+})
 
 // ----------- Graphic Design Section Show Work Samples
 
