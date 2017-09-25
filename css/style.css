@@ -48,8 +48,9 @@ body {
   background: url('');
   background-origin: content-box;
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
+  background-color: white;
   -webkit-box-shadow: 0px 5px 10px #333333;
   box-shadow: 0px 5px 10px #333333;
 }
@@ -151,13 +152,13 @@ header div {
 }
 
 #navIcon:hover {
-    background-color: #001D22 !important;
+  transition: background-color .5s ease-in-out;
+  background-color: #ff6e6d;
 
 }
 
 .navLines{
     position: absolute;
-
     width: 30px;
     height: 1px;
     border: solid 0.1px white;
@@ -233,11 +234,11 @@ header div {
 }
 
 #webdevelopmenttext {
-
+background-color: white;
 }
 
 #contentwriter {
-
+background-color: white;
 
 }
 
@@ -249,6 +250,32 @@ header div {
 
 #graphicdesignsamples {
 
+}
+.CTA{
+  width: 200px;
+  height: 50px;
+  font-size: 1.3em;
+  font-weight: 900;
+  text-align: center;
+  color: white;
+  background-color:#FE4A49;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding-top: 13px;
+  -webkit-box-shadow: 0px 1px 5px black;
+          box-shadow: 0px 1px 5px black;
+}
+
+.CTA:hover{
+  transition: background-color .25s ease-in-out;
+  background-color: #ff6e6d;
+}
+
+.CTA:active{
+  transition: background-color .25s ease-in-out;
+  background-color: #e03231;
 }
 
 .textsections {
@@ -306,14 +333,16 @@ header div {
     -ms-flex-wrap: wrap;
             flex-wrap: wrap;
     margin-top: 50px;
+    align-items: center;
+    justify-content: center;
 
 }
 
 .projects {
 	max-width: 100px;
     margin: 0 auto;
-    .margin-left: 25px;
-    .margin-right: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
 
 
 }
@@ -350,19 +379,19 @@ header div {
   display: block;
   .align-items: center;
   .justify-content:space-around;
-  margin-bottom: 270px;
+  .margin-bottom: 270px; //add back in when adding pagination buttons
 }
 
 #website-photo{
   display: block;
   width: 100%;
-  height: 100%;
+  min-width: 150px;
+  height: 200px;
   border: 1px solid #ccc;
   border-radius: 10px;
-  background: url('/resources/hhi-images/hhi-1.png');
-  background-size: cover !important;
+  background: url('/resources/hhi-images/hhi-1.png') no-repeat;
+  background-size: cover;
   background-position: top center  !important;
-  .box-shadow: 0px 0px 20px #ccc;
   -webkit-box-shadow: 0px 0px 30px #cecece;
           box-shadow: 0px 0px 30px #cecece;
   margin-right: 20px;

@@ -94,11 +94,16 @@ $(document).ready(function(){
 
             projectsOpen = true;
 
+
+            $("#hideprojects").css("display", "block");
+
             $("#seeprojects").html('<a href="#projectsstart"><i class="material-icons expanddown1">&#xE5CE;</i>hide projects<i class="material-icons expanddown1">&#xE5CE;</i></a>');
 
         } else if(projectsOpen == true){
 
             projectsOpen = false;
+
+            $("#hideprojects").css("display", "none");
 
             $("#seeprojects").html('<a href="#projectsstart"><i  class="material-icons expanddown1">&#xE5CF;</i>show projects<i class="expanddown1 material-icons">&#xE5CF;</i></a>');
 
@@ -120,7 +125,8 @@ $(document).ready(function(){
         } else if(projectsOpen == true){
 
             projectsOpen = false;
-
+            
+            $("#hideprojects").css("display", "none");
 
         }
 
@@ -140,7 +146,9 @@ var websitesArray = [ //array of objects containing info for each website
   "sc1":"/resources/hhi-images/hhi-2.png",
   "sc2":"/resources/hhi-images/hhi-3.png",
   "sc3":"/resources/hhi-images/hhi-4.png",
-  "sc4":"/resources/hhi-images/hhi-5.png"
+  "sc4":"/resources/hhi-images/hhi-5.png",
+  "url":"http://www.healthhopeinstitute.com",
+  "address":"healthhopeinstitute.com"
 },
 {
   "name":"journey to travel",
@@ -149,7 +157,9 @@ var websitesArray = [ //array of objects containing info for each website
   "sc1":"/resources/hhi-images2/hhi-9.png",
   "sc2":"/resources/hhi-images2/hhi-6.png",
   "sc3":"/resources/hhi-images2/hhi-7.png",
-  "sc4":"/resources/hhi-images2/hhi-8.png"
+  "sc4":"/resources/hhi-images2/hhi-8.png",
+  "url":"http://www.journeytotravel.com",
+  "address":"journeytotravel.com"
 }
 ];
 
@@ -192,6 +202,8 @@ function setWebsiteData(){
 
   $("#website-description h3").html(websitesArray[x].name);
   $("#website-description p").html(websitesArray[x].description);
+  $("#website-url").html(websitesArray[x].address);
+  $("#website-url").attr('href', websitesArray[x].url);
   $("#website-photo").css("background", 'url(' + websitesArray[x].mainphotourl + ')');
   $("#sh-1").css("background", 'url(' + websitesArray[x].sc1 + ')');
   $("#sh-2").css("background", 'url(' + websitesArray[x].sc2 + ')');
@@ -440,6 +452,7 @@ $("#overlay").on('click', function(){
   $('#linkgraphic').click(scroll);
   $('#linkcontact').click(scroll);
   $('#reachout').click(scroll);
+  $('#getquote').click(scroll);
 
 function scroll() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {

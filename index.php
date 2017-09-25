@@ -71,7 +71,7 @@
                 <div class="col-sm-6">
                     <h2>about me</h2>
                     <hr>
-                    <p class="textsections">I've always been passionate about the web. Since I was a little kid, most of my free time was in front of a computer, learning the ins and outs. Many days were spent learning Photoshop and similar programs, which led to design becoming a fun hobby of mine. After college, I began to work as a content writer and that’s what I primarily do today. Because of my work, I've come to appreciate web development, both front-end and back-end. I am on a journey to expand my skillset and am seeking employment as a web developer. Take a look at my work below, check out <a href="http://danielbonnells.com/resources/Daniel_Bonnells_Resume.pdf">my resume</a>, and <a id="reachout" href="#contact"><strong>reach out to me</strong></a> if you think I would be a good fit for your organization. </p>
+                    <p class="textsections">I've always been passionate about the web. Since I was a little kid, most of my free time was in front of a computer, learning the ins and outs. Many days were spent learning Photoshop and similar programs, kindling an appreciation for graphic design. After college, I began to work as a content writer, crafting copy for businesses around the nation. Today, I work as a full-time web content editor and developer. Because of my work, I've come to appreciate both the front-end and back-end of web development. I am always on a journey to learn and expand my skillset and am available for freelance projects. Take a look at my work below and <a id="reachout" href="#contact"><strong>reach out to me</strong></a> to discuss your project.</p> <a id="getquote" href="#contact"><div class="CTA">GET A QUOTE</div></a>
                 </div>
                </div>
             </div>
@@ -86,8 +86,8 @@
                     <div class="col-sm-6">
                         <h2>web development</h2>
                         <hr>
-                        <p class="textsections">I've been working hard for the past couple of years to reach a point where I feel comfortable calling myself a web developer. In fact, in March of 2017 I accomplished a huge goal of mine to complete my <a href="https://www.freecodecamp.com/danielbonnells/front-end-certification" ><strong>Front End Developer Certificate</strong></a> from <a href="https://www.freecodecamp.com/danielbonnells">FreeCodeCamp.</a> I've worked on several projects that gave me experience with: APIs, functional JavaScript, listener events, audio playback, and timing events. I wrote up this site myself, and have done a bit of freelancing along the way.
-                            <br><br>I am comfortable utilizing HTML5, CSS3, and JavaScript to create and manipulate the DOM. With CSS, I have experience styling with the use of variables, creating animations, and taking advantage of media queries to display sites differently depending on screen size breakpoints. The future is in responsive websites that put mobile first, which is what I prioritize when creating. Using vanilla JavaScript, as well as other js libraries, I’m able to easily modify the styling and HTML to fit the needs at hand. I also have PHP experience creating and editing WordPress themes and can manipulate MySQL databases.
+                        <p class="textsections">In March 2017 I accomplished a significant goal of mine of completing my <a href="https://www.freecodecamp.com/danielbonnells/front-end-certification" target="_blank"><strong>Front End Developer Certificate</strong></a> from <a href="https://www.freecodecamp.com/danielbonnells" target="_blank">FreeCodeCamp.</a> Through this journey I worked on several projects that gave me experience with: APIs, functional JavaScript, listener events, audio playback, and timing events.
+                            <br><br>I am comfortable utilizing HTML5, CSS3, and JavaScript to create and manipulate the DOM. With CSS, I have experience styling with the use of variables, creating animations, and taking advantage of media queries to display sites differently depending on screen size breakpoints. The future is in responsive websites that put mobile first, which is what I prioritize when creating. Using vanilla JavaScript, as well as some JS libraries, I’m able to easily modify the styling and HTML to fit the needs at hand. I also have PHP experience creating and editing WordPress themes and forms, and can manipulate MySQL databases.
                             <br><br>Click below to see some of my projects.
  </p>
                         <div id="projectsstart" style="height: 75px;"></div>
@@ -102,29 +102,29 @@
                 <div id="projectsection" class="col-lg-12">
 
                     <div class="projects"id="project1">
-                        <a href="http://codepen.io/danielbonnells/pen/QpGrGr">
+                        <a href="http://codepen.io/danielbonnells/pen/QpGrGr" target="_blank">
                         <img alt="This is an image of a four function calculator styled with blues and grays." src="resources/codepen_projects/calculator.png" class="img-responsive">
-                        <h3>calculator</h3>
+                        <h3>simple calculator</h3>
                         </a>
                         <p class="projectinfo">Simple four function calculator with memory</p>
                     </div>
                     <div class="projects"id="project2">
-                        <a href="http://codepen.io/danielbonnells/pen/QppVPm">
+                        <a href="http://codepen.io/danielbonnells/pen/QppVPm" target="_blank">
                         <img alt="This is an image of a digital Pomodoro timer in a red, white, and black theme with large buttons that increment or decrement time." src="resources/codepen_projects/pomodoroclock.png" class="img-responsive">
-                        <h3>pomodoro</h3>
+                        <h3>pomodoro clock</h3>
                         </a>
                         <p class="projectinfo">Timer based on the Pomodoro technique</p>
 
                     </div>
                     <div class="projects"id="project3">
-                        <a href="http://codepen.io/danielbonnells/pen/xqjrmJ">
+                        <a href="http://codepen.io/danielbonnells/pen/xqjrmJ" target="_blank">
                         <img alt="This is an image of a simon says game with four buttons on top of a gray background. There is also a start button, a 'strict mode' button, and a level counter." src="resources/codepen_projects/simongame.png" class="img-responsive">
                         <h3>simon says</h3>
                         </a>
                         <p class="projectinfo">Pattern game with audio and visual components utilizing timing events</p>
                     </div>
                     <div class="projects"id="project4">
-                        <a href="http://codepen.io/danielbonnells/pen/WpEZMZ">
+                        <a href="http://codepen.io/danielbonnells/pen/WpEZMZ" target="_blank">
                         <img alt="This is an image of a tic tac toe game with blue tiles, white text, on a turquoise background." src="resources/codepen_projects/tictactoe.png" class="img-responsive">
                         <h3>tic tac toe</h3>
                         </a>
@@ -132,7 +132,7 @@
 
                     </div>
                     <div class="projects"id="project5">
-                        <a href="http://codepen.io/danielbonnells/pen/ZBEevE">
+                        <a href="http://codepen.io/danielbonnells/pen/ZBEevE" target="_blank">
                         <img alt="This is an image of a weather app showing the weather at your specific coordinates. There is a button to change degree units." src="resources/codepen_projects/weatherapi.png" class="img-responsive">
                         <h3>weather app</h3>
                         </a>
@@ -140,7 +140,7 @@
 
                     </div>
                     <div class="projects"id="project6">
-                        <a href="http://codepen.io/danielbonnells/pen/xgxPWg">
+                        <a href="http://codepen.io/danielbonnells/pen/xgxPWg" target="_blank">
                         <img alt="This is an image of an app for searching wikipedia. There is a search field in the middle, with two black buttons underneath, all on a yellow background. " src="resources/codepen_projects/wikipediaviewer.png" class="img-responsive">
                         <h3>wiki viewer</h3>
                         </a>
@@ -154,23 +154,28 @@
                 <hr style="width:100%;">
 
 
-                <div style="height:90px;margin-top: 50px;"><h2>websites</h2></div>
+                <div style="height:90px;margin-top: 50px;"><h2>larger projects</h2></div>
                 <div id="websitesection" class="row">
-                  <div id="webinfo-col" class="col-xs-12 col-lg-6 col-lg-offset-1">
+                  <div id="webinfo-col" class="col-xs-12 col-lg-5 col-lg-offset-1">
                     <!--<div id="left-btn"><i class="material-icons icons-switch-screenshot-lg">keyboard_arrow_left</i></div>-->
                   <div id="website-photo"></div>
 
                   <div id="website-description">
                     <h3>health & hope institute</h3>
                     <p>Website received complete development overhaul into a responsive, mobile-first design. New feature implementations such as Wordpress Blogging and e-commerce integration. Theme was customized to match the html styling.</p>
+                    <a href="http://www.healthhopeinstitute.com" id="website-url" target="_blank">healthhopeinstitute.com</a>
                   </div>
                   <div id="vertical-line"></div>
                   <!--<div id="right-btn"></div>-->
                 </div>
 
                 <div class="col-xs-12 col-lg-5" id="screenshot-col">
-                  <div style="width: 100%;text-align: center; margin-top:30px;"><i id="left-btn" class="material-icons icons-switch-screenshot">navigate_before</i><i id="right-btn" class="material-icons icons-switch-screenshot">navigate_next</i>
-                  <h3 id="screenshots-title" style="display:block;">screenshots</h3></div>
+                  <!-- PROJECT PAGINATION -->
+
+                  <div style="width: 100%;text-align: center; margin-top:30px;"><!--<i id="left-btn" class="material-icons icons-switch-screenshot">navigate_before</i><i id="right-btn" class="material-icons icons-switch-screenshot">navigate_next</i>
+                  -->
+
+                  <h3 id="screenshots-title" style="display:block;cursor:pointer; text-decoration:underline;">screenshots</h3></div>
 
                   <div id="screenshot-container">
                       <div id="sh-1" class="screenshot"></div>
@@ -182,7 +187,7 @@
                 </div>
                 </div>
 
-                <div id="hideprojects" class="seeprojects"><a href="#projectsstart"><i class="material-icons expanddown1">&#xE5CE;</i>Hide Projects<i class="material-icons expanddown1">&#xE5CE;</i></a></div>
+                <div id="hideprojects" style="display:none; margin: 0 auto; width: 100%;" class="seeprojects"><a href="#projectsstart"><i style="display:inline-block" class="material-icons expanddown1">&#xE5CE;</i>Hide Projects<i style="display:inline-block"class="material-icons expanddown1">&#xE5CE;</i></a></div>
             </div>
 
 
@@ -197,9 +202,9 @@
                         <hr>
                         <p class="textsections">I write content for niche websites and clients. The majority of my work makes part of a content-driven marketing approach for local and international companies. My job is to deliver consistent, evergreen articles and blogs rich in information relevant to consumers. All of my work keeps readability, shareability, and SEO in mind in order to best propel the client’s website to the top of search engine results.
 
-<br><br>I run a travel blog of my own for budget adventure travelers, <a href="http://journeytotravel.com/">journeytotravel.com</a>, which has, admitedly, not been updated recently.
+<br><br>I run a travel blog of my own for budget adventure travelers, <a href="http://journeytotravel.com/" target="_blank">journeytotravel.com</a>, which has, admitedly, not been updated recently.
 
-<br><br>For the most part, my content is not credited, as is customary for most writers in my field. For samples of my work, check out <a href="https://www.skyscanner.com/tips-and-inspiration/visiting-new-orleans-a-readers-persepective">this blog for SkyScanner.com</a>, or <a href="http://danielbonnells.com/files/Daniel%20Bonnells%20-%20Writing%20Sample.pdf"><strong>download this writing sample</strong></a>.
+<br><br>For the most part, my content is not credited, as is customary for most writers in my field. For samples of my work, check out <a href="https://www.skyscanner.com/tips-and-inspiration/visiting-new-orleans-a-readers-persepective" target="_blank">this blog for SkyScanner.com</a>, or <a href="http://danielbonnells.com/files/Daniel%20Bonnells%20-%20Writing%20Sample.pdf"><strong>download this writing sample</strong></a>.
 </p>
                     </div>
                 </div>
@@ -219,7 +224,7 @@ My experience with design has afforded me the ability to lead brand identity pro
 
 <br><br>My time as an employee of the Institute of Hispanic and Latino Cultures at the University of Florida allowed me to develop my skillset as I was the only individual generating visual marketing material for the entire organization.
 
-<br><br>As a freelancer, I have worked with local clients as well as remote organizations creating logos and banners. Check out a few samples below, or <a href="https://danielbonnells.carbonmade.com/">see more on my portfolio</a>.
+<br><br>As a freelancer, I have worked with local clients as well as remote organizations creating logos and banners. Check out a few samples below, or <a href="https://danielbonnells.carbonmade.com/" target="_blank">see more on my portfolio</a>.
   </p>
                     <div id="showgraphicsamples" class="seeprojects"><a href="#graphicdesignsamples"><i class="material-icons expanddown1">&#xE5CF;</i>show samples<i class="material-icons expanddown1">&#xE5CF;</i></a></div>
                     <hr>
@@ -289,12 +294,12 @@ My experience with design has afforded me the ability to lead brand identity pro
       </div>
       <div id="contactlinks" class="col-xs-12 col-md-6">
         <div><a href="mailto:daniel@danielbonnells.com">send me an email</a></div>
-        <div><a href="http://danielbonnells.com/resources/Daniel_Bonnells_Resume.pdf">download my resume</a></div>
+        <div><a href="http://danielbonnells.com/resources/Daniel_Bonnells_Resume.pdf" target="_blank">download my resume</a></div>
         <div id="fdiv">
-        <div><a href="https://www.linkedin.com/in/danielbonnells/">LinkedIn</a></div>
-        <div><a href="https://twitter.com/danielbt">Twitter</a></div>
-        <div><a href="https://danielbonnells.carbonmade.com/">CarbonMade</a></div>
-        <div><a href="https://github.com/danielbonnells">GitHub</a></div>
+        <div><a href="https://www.linkedin.com/in/danielbonnells/" target="_blank">LinkedIn</a></div>
+        <div><a href="https://twitter.com/danielbt" target="_blank">Twitter</a></div>
+        <div><a href="https://danielbonnells.carbonmade.com/" target="_blank">CarbonMade</a></div>
+        <div><a href="https://github.com/danielbonnells" target="_blank">GitHub</a></div>
         </div>
       </div>
       </div>

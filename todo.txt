@@ -1,3 +1,6 @@
 This is a list of things I want to do:
 + bring up modal when screenshots are clicked/touched
 - when user hovers on section, bounce or otherwise make "show projects" more visible
+
+-include “x” to close modal.
+-optimize all images to decrease load times
